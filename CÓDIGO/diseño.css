@@ -1,15 +1,15 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a;
-    color: #ffffff;
+    background-color: #fc92d0; /*Fondo 1*/
+    color: #000000; /*Color del texto*/
 }
 
-/* Estilo del encabezado */
+
 header {
-    background-color: #282828;
+    background-color: #fc92d0; /*Color del menú*/
     padding: 20px;
     text-align: center;
 }
@@ -25,25 +25,19 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #ffffff; /*Color de las secciones del menú*/
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Secciones */
+
 section {
     padding: 50px;
     max-width: 800px;
     margin: auto;
-    background-color: #333;
+    background-color: #ffffffa2; /*Fondo 2*/
     border-radius: 10px;
     margin-top: 20px;
 }
 
-/* Pie de página */
-footer {
-    background-color: #222;
-    padding: 20px;
-    text-align: center;
-    margin-top: 20px;
-}
+
