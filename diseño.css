@@ -40,12 +40,12 @@ section {
     margin-top: 20px;
 }
 
-.barra progreso {
+barra progreso {
      margin: 20px; 
     display: flex;
     justify-content: center;
 }
-.barra progreso img{
+barra progreso img{
     width: 90%;
     max-width: 600px;
     display: block;
