@@ -1,4 +1,15 @@
-
+@font-face {
+    font-family: 'FuenteKirby';
+    src: url(assets/fuentes/kirby-classic.ttf) format('truetype');
+}
+h2, h3 {
+    font-family: 'FuenteKirby', sans-serif;
+    color:#fc71c2d2;
+}
+.titulo-kirby {
+    font-family: 'FuenteKirby', sans-serif;
+    color:#ffffff;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -25,7 +36,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000; /*Color de las secciones del menú*/
+    color: #ffffff; /*Color de las secciones del menú*/
     text-decoration: none;
     font-weight: bold;
 }
@@ -40,19 +51,19 @@ section {
     margin-top: 20px;
 }
 
-.barra progreso {
+.barra-progreso {
     text-align: center;
     padding: 40px 20px;
-    background-color: #fff;
+    background-color: #ffffff00;
 }
-.barra progreso img{
+.barra-progreso img{
     width: 90%;
     max-width: 900px;
     height: auto;
     display: block;
     margin: 0 auto;
     border-radius: 5px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 4px 20px rgba(0, 0, 0, 0);*/
 }
 #disclaimer {
     
@@ -76,3 +87,26 @@ section {
 
 }
 
+#For-fun {
+    
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff00;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 35%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    /*box-shadow: 0 4px 20px rgba(0, 0, 0, 0);*/
+}
