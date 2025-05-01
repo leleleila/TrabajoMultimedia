@@ -110,3 +110,20 @@ section {
     border-radius: 10px;
     /*box-shadow: 0 4px 20px rgba(0, 0, 0, 0);*/
 }
+.titulo-kirby {
+    text-align: center;
+    margin: 20px 0;
+
+}
+.titulo-kirby img.titulo-kirby{
+width: 20%;
+max-width: 200px;
+height: auto;
+}
+.grito-guerra {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'FuenteKirby', sans-serif;
+    color:#fc71c2d2;
+
+}
