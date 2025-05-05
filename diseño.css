@@ -127,3 +127,10 @@ height: auto;
     color:#fc71c2d2;
 
 }
+.waddle-dee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
