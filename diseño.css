@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'FuenteKirby';
-    src: url(assets/fuentes/kirbys.ttf) format('truetype');
+    src: url(assets/fuentes/kirby-classic.ttf) format('truetype');
 }
 h2, h3 {
     font-family: 'FuenteKirby', sans-serif;
