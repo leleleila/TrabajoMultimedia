@@ -10,17 +10,20 @@ h2, h3 { /*Titulos bajini.*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 60px 20px;
+    padding: 45px 10px;
+
+   
 }
 .titulo-kirby {
     font-family: 'FuenteKirby', sans-serif;
     color:#ffffff;
 }
 body {
+    
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('./assets/Fondo_multimedia.png'); /*Fondo 1*/
+    background-image: url('./assets/Fondo-animado.gif'); /*Fondo 1*/
     background-repeat: repeat;
     background-position: top left;
     color: #000000; /*Color del texto*/
@@ -142,3 +145,18 @@ height: auto;
     gap: 10px;
 
 }
+.dibujo-principal {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff00;
+}
+.dibujo-principal img{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    /*box-shadow: 0 4px 20px rgba(0, 0, 0, 0);*/
+}
+
