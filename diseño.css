@@ -2,6 +2,10 @@
     font-family: 'FuenteKirby';
     src: url(assets/fuentes/kirby-classic.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'FuentePropia';
+    src: url(assets/fuentes/kirbys.ttf) format('truetype');
+}
 h2, h3 {
     font-family: 'FuenteKirby', sans-serif;
     color:#fc71c2d2;
@@ -11,7 +15,7 @@ h2, h3 {
     color:#ffffff;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'FuentePropia';
     margin: 0;
     padding: 0;
     background-color: #f3b0d7c5; /*Fondo 1*/
