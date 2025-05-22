@@ -2,25 +2,33 @@
     font-family: 'FuenteKirby';
     src: url(assets/fuentes/kirby-classic.ttf) format('truetype');
 }
-h2, h3 {
+h2, h3 { /*Titulos bajini.*/
     font-family: 'FuenteKirby', sans-serif;
-    color:#fc71c2d2;
+    color: #fc71c2d2;
+    text-align: center;
+    background-image: url('./assets/Kirby_titulo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 60px 20px;
 }
 .titulo-kirby {
     font-family: 'FuenteKirby', sans-serif;
     color:#ffffff;
 }
 body {
-    font-family: 'Arial, sans-serif';
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3b0d7c5; /*Fondo 1*/
+    background-image: url('./assets/Fondo_multimedia.png'); /*Fondo 1*/
+    background-repeat: repeat;
+    background-position: top left;
     color: #000000; /*Color del texto*/
 }
 
 
 header {
-    background-color: #fc92d08c; /*Color del menú*/
+    background-color: rgba(244, 100, 252, 0.75); /*Color del menú*/
     padding: 20px;
     text-align: center;
 }
@@ -46,7 +54,7 @@ section {
     padding: 50px;
     max-width: 800px;
     margin: auto;
-    background-color: #ffffff8c; /*Fondo 2*/
+    background-color: #fce4f4; /*Color de los recuadros.*/
     border-radius: 10px;
     margin-top: 20px;
 }
