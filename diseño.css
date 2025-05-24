@@ -1,9 +1,13 @@
 @font-face {
-    font-family: 'FuenteKirby';
-    src: url(assets/fuentes/kirby-classic.ttf) format('truetype');
+    font-family: 'KirbyTitulos';
+    src: url(assets/fuentes/kirbys.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'KirbySubtitulos';
+    src: url(assets/fuentes/subtitulos-kirby.ttf) format('truetype');
 }
 h2, h3 { /*Titulos bajini.*/
-    font-family: 'FuenteKirby', sans-serif;
+    font-family: 'KirbyTitulos';
     color: #fc71c2d2;
     text-align: center;
     background-image: url('./assets/Kirby_titulo.png');
@@ -20,7 +24,7 @@ h2, h3 { /*Titulos bajini.*/
 }
 body {
     
-    font-family: Arial, sans-serif;
+    font-family: 'KirbySubtitulos';
     margin: 0;
     padding: 0;
     background-image: url('./assets/Fondo-animado.gif'); /*Fondo 1*/
@@ -132,10 +136,15 @@ max-width: 200px;
 height: auto;
 }
 .grito-guerra {
+
+     font-family: 'KirbyTitulos';
+    color: #fc71c2d2;
     text-align: center;
-    margin: 20px 0;
-    font-family: 'FuenteKirby', sans-serif;
-    color:#fc71c2d2;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 45px 10px;
 
 }
 .waddle-dee {
@@ -158,5 +167,10 @@ height: auto;
     margin: 0 auto;
     border-radius: 5px;
     /*box-shadow: 0 4px 20px rgba(0, 0, 0, 0);*/
+}
+.texto{
+
+   
+    font-size: 13px;
 }
 
