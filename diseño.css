@@ -11,12 +11,14 @@ h2, h3 { /*Titulos bajini.*/
     color: #fc71c2d2;
     text-align: center;
     background-image: url('./assets/Kirby_titulo.png');
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 45px 10px;
+    padding: 50px 60px 80px 10px;
+    width: 50%;
+    max-width: 1200px; 
+    margin: 0 auto;
 
-   
 }
 .titulo-kirby {
     font-family: 'FuenteKirby', sans-serif;
@@ -206,4 +208,36 @@ height: auto;
 
 .youtube:hover {
     transform: scale(1.2);
+}
+#preguntas {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+#preguntas details {
+  background: #fce4f4;
+  border: 4px solid #fc71c2d2;
+  border-radius: 5px;
+  padding: 1em;
+  margin-bottom: 1em;
+  transition: all 0.3s ease;
+}
+
+#preguntas summary {
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+  padding-right: 1.5em;
+}
+
+#preguntas summary::after {
+  content: "▼";
+  position: absolute;
+  right: 0;
+  transition: transform 0.3s ease;
+}
+
+#preguntas details[open] summary::after {
+  transform: rotate(180deg);
 }
