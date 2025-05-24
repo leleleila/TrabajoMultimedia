@@ -28,6 +28,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('./assets/Fondo-animado.gif'); /*Fondo 1*/
+    background-attachment: fixed;
     background-repeat: repeat;
     background-position: top left;
     color: #000000; /*Color del texto*/
@@ -173,4 +174,36 @@ height: auto;
    
     font-size: 13px;
 }
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.twitter {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
 
+.twitter:hover {
+    transform: scale(1.2);
+}
+.instagram {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+
+.instagram:hover {
+    transform: scale(1.2);
+}.youtube {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+
+.youtube:hover {
+    transform: scale(1.2);
+}
